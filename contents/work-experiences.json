@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Deep Learning Developer",
+    "description": "An image segmentation project",
+    "time": "Fall 2017 - Present",
+    "details": [
+      "Use Tensorflow to color code useful features from dataset"
+    ]
+  },
+  {
+    "title": "Open EdX online learning website Developer",
+    "description": "Cicisecure project, A collaboration online course platform of 5 universities funded by NSF",
+    "time": "Summer 2017 - Present",
+    "details": [
+      "Collaborate with 2 graduate students to build the infrastructure and deploy it",
+      "Developed a docker software to portably make incremental pull backups from cloud instances or local instances",
+      "Created an easy-to-use Python wrapper for MongoDB query"
+    ]
+  },
+  {
+    "title": "Network Traffic Simulator Developer",
+    "description": "A simulator that is based on \"Towards Effective Virtualization of Intrusion Detection Systems\" by Nuyun Zhang et al",
+    "time": "Summer 2017",
+    "details": [
+      "Collaborated with 2 other undergraduate students to design the program and write a research paper of our finding",
+      "Created a linux command line interface for running the simulator",
+      "Wrote the simulator’s documentation"
+    ]
+  },
+  {
+    "title": "Coala Developer",
+    "description": "An open source linter for almost all programming languages",
+    "time": "Summer 2017 - Present",
+    "details": [
+      "Collaborate with more than 600 developers around the world to make Coala more powerful and stable"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Developer",
+    "description": "Personal apps",
+    "time": "Summer 2017 - Present",
+    "details": [
+      "Develop a program called \"rpi-server,\" dockerized arm based server that serves secure web ui downloader, media, and monitoring services"
+    ]
+  },
+  {
+    "title": "Public Relation Position",
+    "description": "Canicomp at Canisius College",
+    "time": "Fall 2013 - Fall 2015",
+    "details": [
+      "Communicated and coordinated with more than 20 coordinators from all Canicomp branches",
+      "Researched programming competitions and events: OSN, CCE, etc"
+    ]
+  },
+  {
+    "title": "Teacher",
+    "description": "Canicomp at Canisius College",
+    "time": "Fall 2011 - Fall 2015",
+    "details": [
+      "Taught C, Visual Basic, Turbo Pascal, algorithms and problem solving skills to other 10 members"
+    ]
+  }
+]

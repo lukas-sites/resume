@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Python, Linux, Docker",
+    "level": 95
+  },
+  {
+    "title": "Git, Deep Learning, Tensorflow, Django",
+    "level": 80
+  },
+  {
+    "title": "Javascript, HTML, CSS, Go, Java",
+    "level": 70
+  },
+  {
+    "title": "C/C++",
+    "level": 65
+  },
+  {
+    "title": "MySQL, MongoDB",
+    "level": 60
+  },
+  {
+    "title": "Circle CI",
+    "level": 50
+  }
+]
