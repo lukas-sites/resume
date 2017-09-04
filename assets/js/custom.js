@@ -12,6 +12,7 @@ $(document).ready(function(){
       $("title").text(data.title);
       $("h1.name").text(data.name);
       $("h3.tagline").text(data.tagline);
+      $("h5#resume > a").attr("href", data.resume);
 
       // Contact
       $("li.email > a").attr("href", "mailto: " + data.email).text(data.email);
