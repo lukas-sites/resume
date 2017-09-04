@@ -5,6 +5,7 @@ function removeHttp(url){
 $(function(){
   $.get("contents/info.json", function(data){
     // Header
+    $("title").text(data.title);
     $("h1.name").text(data.name);
     $("h3.tagline").text(data.tagline);
 
