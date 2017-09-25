@@ -8,8 +8,8 @@
     ]
   },
   {
-    "title": "Developer",
-    "description": "Personal apps",
+    "title": "Hobby Project (github.com/lherman-cs/rpi-server)",
+    "description": "A portable home media server that can be run in a single line of code",
     "time": "Summer 2017 - Present",
     "details": [
       "Develop a program called \"rpi-server,\" dockerized arm based server that serves secure web ui downloader, media, and monitoring services"
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "title": "Teacher",
+    "title": "Instructor",
     "description": "Canicomp at Canisius College",
     "time": "Fall 2011 - Fall 2015",
     "details": [
