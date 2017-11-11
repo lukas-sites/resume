@@ -4,7 +4,7 @@
     "description": "An image segmentation project",
     "time": "Fall 2017 - Present",
     "details": [
-      "Use Tensorflow to color code useful features from dataset"
+      "Use Tensorflow to generate 3D images from 2D images"
     ]
   },
   {
