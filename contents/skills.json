@@ -1,22 +1,18 @@
 [
   {
-    "title": "Python, Linux, Docker",
+    "title": "Python, C++, C, Linux, Docker",
     "level": 95
   },
   {
-    "title": "Git, Deep Learning, Tensorflow, Django",
+    "title": "MySQL, Git, Deep Learning, Tensorflow, Django",
     "level": 80
   },
   {
-    "title": "Javascript, HTML, CSS, Go, Java, C++",
+    "title": "Javascript, HTML, CSS, Go, Java",
     "level": 70
   },
   {
-    "title": "C++",
-    "level": 65
-  },
-  {
-    "title": "MySQL, MongoDB",
+    "title": "MongoDB",
     "level": 60
   },
   {
