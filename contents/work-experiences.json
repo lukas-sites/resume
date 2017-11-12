@@ -1,7 +1,7 @@
 [
   {
     "title": "Deep Learning Developer, Clemson CCIT",
-    "description": "An image segmentation project",
+    "description": "An image transformation project",
     "time": "Fall 2017 - Present",
     "details": [
       "Use Tensorflow to generate 3D images from 2D images"
