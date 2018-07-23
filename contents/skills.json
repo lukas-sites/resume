@@ -1,22 +1,18 @@
 [
   {
-    "title": "Go, Python, C++, C, Linux, Docker, Bash. Angular, Typescript",
+    "title": "Go, Python, Linux, Docker, Bash, Angular, Typescript",
+    "level": 100
+  },
+  {
+    "title": "C/C++, Git, Java, Tensorflow, Javascript, Deployment",
     "level": 95
   },
   {
-    "title": "Vue.js, MySQL, Git, Tensorflow, Django",
-    "level": 80
+    "title": "CI/CD, Database, HTML, CSS, Vue.js",
+    "level": 85
   },
   {
-    "title": "Javascript, Electron, Java",
-    "level": 70
-  },
-  {
-    "title": "HTML, CSS, MongoDB",
-    "level": 60
-  },
-  {
-    "title": "Circle CI",
-    "level": 50
+    "title": "React, MySQL, Django, Nginx",
+    "level": 75
   }
 ]
