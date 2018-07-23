@@ -1,18 +1,18 @@
 [
   {
     "title": "Go, Python, Linux, Docker, Bash, Angular, Typescript",
-    "level": 95
+    "level": 100
   },
   {
     "title": "C/C++, Git, Java, Tensorflow, Javascript, Deployment",
-    "level": 90
+    "level": 95
   },
   {
     "title": "CI/CD, Database, HTML, CSS, Vue.js",
-    "level": 80
+    "level": 85
   },
   {
     "title": "React, MySQL, Django, Nginx",
-    "level": 70
+    "level": 75
   }
 ]
