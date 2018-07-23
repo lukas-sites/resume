@@ -1,5 +1,17 @@
 [
   {
+    "title": "Full Stack Developer Intern",
+    "description": "IBM - FoodTrust Blockchain Team",
+    "time": "Littleton, MA, 05/2018 - Present",
+    "details": [
+      "Wrote a Python script to convert codebase, 7,553 lines added and 2,477 removed, from Angular's i18n to ngx-translate using advanced Regex, NLP, and locality analysis",
+      "Fixed 2 existing issues regarding resizing FoodTrust's UI charts",
+      "Developed a highly customizable report generator web app for managing multiple Github repositories",
+      "Created an Angular end-to-end testing framework",
+      "Made 241 contributions within 2 months"
+    ]
+  },
+  {
     "title": "Deep Learning Software Developer, CCIT (Clemson Computing & Information Technology)",
     "description": "An image transformation project",
     "time": "Fall 2017 - Present",
