@@ -1,8 +1,8 @@
 [
   {
     "title": "Full Stack Developer Intern",
-    "description": "IBM - FoodTrust Blockchain Team",
-    "time": "Littleton, MA, 05/2018 - Present",
+    "description": "IBM - FoodTrust Blockchain Team, Littleton, MA",
+    "time": "05/2018 - Present",
     "details": [
       "Wrote a Python script to convert codebase, 7,553 lines added and 2,477 removed, from Angular's i18n to ngx-translate using advanced Regex, NLP, and locality analysis",
       "Fixed 2 existing issues regarding resizing FoodTrust's UI charts",
