@@ -10,9 +10,10 @@
   },
   {
     "title": "LESA",
-    "description": "LESA, Location-based Emotion Social-media Analyzer, is the brainchild of a 12-hour hackathon at IBM. Led a team of 5 software developers",
+    "description": "LESA, Location-based Emotion Social-media Analyzer, is the brainchild of a 12-hour hackathon at IBM.",
     "time": "07/2018",
     "details": [
+      "Led a team of 5 software developers",
       "Wrote a responsive and interactive UI, and deployed to IBM Bluemix server"
     ]
   },
