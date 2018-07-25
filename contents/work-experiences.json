@@ -6,7 +6,7 @@
     "details": [
       "Wrote a Python script to convert codebase, 7,553 lines added and 2,477 removed, from Angular's i18n to ngx-translate using advanced Regex, NLP, and locality analysis",
       "Fixed 2 existing issues regarding resizing FoodTrust's UI charts",
-      "Developed a highly customizable report generator web app for managing multiple Github repositories",
+      "Developed a highly customizable report generator web app for managing multiple Github repositories with async programming",
       "Created an Angular end-to-end testing framework",
       "Made 241 contributions within 2 months"
     ]
