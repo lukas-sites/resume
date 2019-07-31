@@ -23,7 +23,6 @@ export default {
   flex-direction: column;
   width: 210mm;
   height: 297mm;
-  border: 1px solid black;
   margin: 0 auto;
   background-color: white;
 }
