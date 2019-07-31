@@ -17,7 +17,7 @@ export default {
 
 <style>
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: sans-serif;
   font-size: 2.7mm;
   background-color: #323639;
   margin: 0;
