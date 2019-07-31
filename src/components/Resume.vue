@@ -25,5 +25,6 @@ export default {
   height: 297mm;
   border: 1px solid black;
   margin: 0 auto;
+  background-color: white;
 }
 </style>

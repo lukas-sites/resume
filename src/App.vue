@@ -19,6 +19,7 @@ export default {
 body {
   font-family: "Ubuntu", sans-serif;
   font-size: 2.7mm;
+  background-color: #323639;
 }
 
 h1 {
