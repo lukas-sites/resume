@@ -1,7 +1,7 @@
 <template>
   <div class="paper">
-    <my-header></my-header>
-    <my-nav></my-nav>
+    <my-header class="no-shrink"></my-header>
+    <my-nav class="no-shrink"></my-nav>
     <my-content class="content"></my-content>
   </div>
 </template>
@@ -33,5 +33,9 @@ export default {
 .content {
   flex: 1 1 auto;
   overflow: auto;
+}
+
+.no-shrink {
+  flex: 0 0 auto;
 }
 </style>
