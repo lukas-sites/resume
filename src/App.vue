@@ -18,7 +18,7 @@ export default {
 <style>
 body {
   font-family: "Ubuntu", sans-serif;
-  font-size: 70%;
+  font-size: 2.7mm;
 }
 
 h1 {
@@ -34,6 +34,11 @@ h2 {
 p {
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .flex-spacer {

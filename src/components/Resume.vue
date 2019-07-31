@@ -1,15 +1,18 @@
 <template>
   <div class="paper">
     <my-header></my-header>
+    <my-nav></my-nav>
   </div>
 </template>
 
 <script>
 import MyHeader from "./Header.vue";
+import MyNav from "./Nav.vue";
 
 export default {
   components: {
-    MyHeader
+    MyHeader,
+    MyNav
   }
 };
 </script>
