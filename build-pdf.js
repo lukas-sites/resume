@@ -12,6 +12,7 @@ const createPdf = async () => {
 
   const url = "http://localhost:8080/";
   await page.goto(url, { waitUntil: "networkidle2" });
+  await page.waitFor(500);
   await page.pdf(options);
 
   await browser.close();
