@@ -9,31 +9,32 @@
 
 <script>
 export default {
+  props: {
+    email: String,
+    phone: String,
+    address: String,
+    linkedin: String,
+    github: String
+  },
   data() {
-    const email = "lherman.cs@gmail.com";
-    const phone = "864-624-3757";
-    const address = "Easley, SC";
-    const linkedin = "linkedin.com/in/lukas-herman";
-    const github = "github.com/lherman-cs";
-
     return {
       cols: [
-        { icon: "envelope", value: email, href: `mailto:${email}` },
-        { icon: "mobile-alt", value: phone, href: `tel:${phone}` },
+        { icon: "envelope", value: this.email, href: `mailto:${this.email}` },
+        { icon: "mobile-alt", value: this.phone, href: `tel:${this.phone}` },
         {
           icon: "map-marker-alt",
-          value: address,
-          href: `https://maps.google.com/?q=${address}`
+          value: this.address,
+          href: `https://maps.google.com/?q=${this.address}`
         },
         {
           icon: ["fab", "linkedin-in"],
-          value: linkedin,
-          href: `https://${linkedin}`
+          value: this.linkedin,
+          href: `https://${this.linkedin}`
         },
         {
           icon: ["fab", "github"],
-          value: github,
-          href: `https://${github}`
+          value: this.github,
+          href: `https://${this.github}`
         }
       ]
     };

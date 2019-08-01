@@ -1,12 +1,13 @@
 <template>
   <div class="paper">
     <my-header class="no-shrink"></my-header>
-    <my-nav class="no-shrink"></my-nav>
-    <my-content class="content"></my-content>
+    <my-nav v-bind="resume.contact" class="no-shrink"></my-nav>
+    <my-content :resume="resume" class="content"></my-content>
   </div>
 </template>
 
 <script>
+import resume from "../assets/resume.json";
 import MyHeader from "./Header.vue";
 import MyNav from "./Nav.vue";
 import MyContent from "./Content.vue";
@@ -16,6 +17,11 @@ export default {
     MyHeader,
     MyNav,
     MyContent
+  },
+  data() {
+    return {
+      resume
+    };
   }
 };
 </script>

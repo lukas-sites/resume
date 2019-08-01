@@ -1,0 +1,33 @@
+{
+  "contact": {
+    "email": "lherman.cs@gmail.com",
+    "phone": "864-624-3757",
+    "address": "Easley, SC",
+    "linkedin": "linkedin.com/in/lukas-herman",
+    "github": "github.com/lherman-cs"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "from": "Clemson University",
+      "date": "01/2017 - 05/2019",
+      "gpa": "3.95/4.0"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "Full Stack Developer Intern",
+      "company": "IBM - FoodTrust Blockchain Team",
+      "date": "05/2018 - Present",
+      "where": "Littleton, MA",
+      "achievements": [
+        "Current POC, developer, and maintainer for the end-to-end testing framework. Integrating into Jenkins build pipeline",
+        "Created an Angular end-to-end testing framework with Protractor and Jasmine; the foundation for testing development",
+        "Wrote a Python script to convert codebase, from Angular's i18n to ngx-translate, adding 7,553 lines and removing 2,477, leveraged advanced Regex, NLP, and locality analysis",
+        "Fixed 2 existing issues regarding resizing FoodTrust's UI charts",
+        "Developed a highly customizable report generator web app for managing multiple Github repos with asynchronous programming",
+        "Made 286 contributions within 3 months"
+      ]
+    }
+  ]
+}
