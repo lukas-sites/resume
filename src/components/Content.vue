@@ -3,7 +3,12 @@
     <section v-for="index in 50" :key="index">
       <div style="padding: 0 20px;">
         <h2>Education</h2>
-        <template-education></template-education>
+        <template-education
+          degree="Bachelor of Science in Computer Science"
+          from="Clemson University"
+          date="01/2017 - 05/2019"
+          gpa="3.96/4.0"
+        ></template-education>
       </div>
     </section>
   </section>
