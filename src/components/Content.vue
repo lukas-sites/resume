@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <section v-for="index in 50" :key="index">
+    <section>
       <div style="padding: 0 20px;">
         <h2>Education</h2>
         <template-education
@@ -9,17 +9,39 @@
           date="01/2017 - 05/2019"
           gpa="3.96/4.0"
         ></template-education>
+        <template-work-experience
+          v-bind="workExperience"
+        ></template-work-experience>
       </div>
     </section>
   </section>
 </template>
 
 <script>
-import { TemplateEducation } from "./templates";
+import { TemplateEducation, TemplateWorkExperience } from "./templates";
 
 export default {
   components: {
-    TemplateEducation
+    TemplateEducation,
+    TemplateWorkExperience
+  },
+  data() {
+    return {
+      workExperience: {
+        position: "Full Stack Developer Intern",
+        company: "IBM - FoodTrust Blockchain Team",
+        date: "05/2018 - Present",
+        where: "Littleton, MA",
+        achievements: [
+          "Current POC, developer, and maintainer for the end-to-end testing framework. Integrating into Jenkins build pipeline",
+          "Created an Angular end-to-end testing framework with Protractor and Jasmine; the foundation for testing development",
+          "Wrote a Python script to convert codebase, from Angular's i18n to ngx-translate, adding 7,553 lines and removing 2,477, leveraged advanced Regex, NLP, and locality analysis",
+          "Fixed 2 existing issues regarding resizing FoodTrust's UI charts",
+          "Developed a highly customizable report generator web app for managing multiple Github repos with asynchronous programming",
+          "Made 286 contributions within 3 months"
+        ]
+      }
+    };
   }
 };
 </script>
