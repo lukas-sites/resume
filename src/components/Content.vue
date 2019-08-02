@@ -37,19 +37,39 @@
             v-bind="language"
           ></skill>
         </div>
+
+        <h1>Relevant Experience</h1>
+        <div>
+          <relevant-experience
+            v-for="(exp, idx) in resume.relevantExperience"
+            :key="idx"
+            v-bind="exp"
+          ></relevant-experience>
+        </div>
+
+        <h1>Achievements</h1>
+        <p v-for="(achievement, idx) in resume.achievements" :key="idx">
+          {{ achievement.description }} ({{ achievement.date }})
+        </p>
       </div>
     </section>
   </section>
 </template>
 
 <script>
-import { Education, WorkExperience, Skill } from "./templates";
+import {
+  Education,
+  WorkExperience,
+  Skill,
+  RelevantExperience
+} from "./templates";
 
 export default {
   components: {
     Education,
     WorkExperience,
-    Skill
+    Skill,
+    RelevantExperience
   },
   props: {
     resume: Object

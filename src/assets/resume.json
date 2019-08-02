@@ -66,5 +66,84 @@
       "description": "Indonesian",
       "level": 5
     }
+  ],
+  "relevantExperience": [
+    {
+      "title": "Statismic - statismic.github.io",
+      "date": "09/2018 - Present",
+      "descriptions": [
+        "is a web app for visualizing various statistics problems",
+        "Lead team, recruited 22 new students, give presentations",
+        "Manage project and develop the UI with Vue.js, pure CSS3, and HTML"
+      ]
+    },
+    {
+      "title": "Personal Blog - blog.lukas-coding.us",
+      "date": "12/2018 - Present",
+      "descriptions": [
+        "Write tutorials and posts as well as maintain a home server to host the blog",
+        "Integrated Ghost platform, MySQL, Traefik, Docker, Cloudflare, and Swarm"
+      ]
+    },
+    {
+      "title": "LESA",
+      "date": "07/2018",
+      "descriptions": [
+        "LESA, Location-based Emotion Social-media Analyzer, is the brainchild of a 12-hour hackathon at IBM. Led a team of 5 software developers",
+        "Wrote a responsive and interactive UI, and deployed to IBM Bluemix server"
+      ]
+    },
+    {
+      "title": "Scavenger Hunt Slack Bot",
+      "date": "04/2018",
+      "descriptions": [
+        "Led a team of 4 people",
+        "Wrote a concurrent server, leveraging mutexes, to handle multiple players",
+        "Integrated AWS RDS to store players' data and Rekognition, the AWS image recognition AI, to analyze uploaded user images"
+      ]
+    },
+    {
+      "title": "Smart Reminder - Hackathon 1st Place Winner",
+      "date": "03/2018",
+      "descriptions": [
+        "is a fully automated break reminder powered by AI that intelligently turns noti cations on/off by detecting if user is sitting",
+        "Led hardware and software teams of 2 people each",
+        "Wrote RESTful API, web UI, deep learning app for object detection, and debugged the hardware team's code"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "description": "The Best Overall Hack in Clemsons Hackathon with Smart Reminder Project",
+      "date": "03/2018"
+    },
+    {
+      "description": "Amazon Hosted AWS Cloudathon 3th Place Winner",
+      "date": "04/2018"
+    },
+    {
+      "description": "Clemson University Presidents List",
+      "date": "12/2017 - Present"
+    },
+    {
+      "description": "Clemson University Deans List",
+      "date": "05/2017"
+    },
+    {
+      "description": "The National Society of Leadership and Success",
+      "date": "12/2016"
+    },
+    {
+      "description": "Tri-County Technical College Deans List",
+      "date": "12/2016"
+    },
+    {
+      "description": "Tri-County Technical College Presidents List",
+      "date": "05/2016"
+    },
+    {
+      "description": "Top 25 in the High School Computing Olympiad of the capital of Indonesia (9.6 million people)",
+      "date": "12/2015"
+    }
   ]
 }
