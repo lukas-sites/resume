@@ -17,7 +17,7 @@ export default {
   props: {
     title: String,
     date: String,
-    descriptions: String
+    descriptions: Array
   }
 };
 </script>
