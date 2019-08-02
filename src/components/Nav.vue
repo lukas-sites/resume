@@ -1,6 +1,12 @@
 <template>
   <nav>
-    <a v-for="(col, idx) in cols" :key="idx" :href="col.href" target="_blank">
+    <a
+      v-for="(col, idx) in cols"
+      :key="idx"
+      :href="col.href"
+      target="_blank"
+      rel="noopener"
+    >
       <font-awesome-icon :icon="col.icon" style="margin-right: 0.5mm" />
       {{ col.value }}
     </a>
