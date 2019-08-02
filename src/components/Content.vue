@@ -19,18 +19,32 @@
             v-bind="experience"
           ></template-work-experience>
         </div>
+
+        <h1>Skills</h1>
+        <div>
+          <template-skill
+            v-for="(skill, idx) in resume.skills"
+            :key="idx"
+            v-bind="skill"
+          ></template-skill>
+        </div>
       </div>
     </section>
   </section>
 </template>
 
 <script>
-import { TemplateEducation, TemplateWorkExperience } from "./templates";
+import {
+  TemplateEducation,
+  TemplateWorkExperience,
+  TemplateSkill
+} from "./templates";
 
 export default {
   components: {
     TemplateEducation,
-    TemplateWorkExperience
+    TemplateWorkExperience,
+    TemplateSkill
   },
   props: {
     resume: Object

@@ -2,7 +2,7 @@
   "contact": {
     "email": "lherman.cs@gmail.com",
     "phone": "864-624-3757",
-    "address": "Easley, SC",
+    "address": "Seattle, WA",
     "linkedin": "linkedin.com/in/lukas-herman",
     "github": "github.com/lherman-cs"
   },
@@ -41,6 +41,20 @@
         "Created an easy-to-use Python wrapper for MongoDB query",
         "Collaborated with 2 undergraduates to write a network simulator"
       ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "Go, Python, Linux, Docker, Bash, Angular, Git, TS, Vue.js, CSS",
+      "level": 5
+    },
+    {
+      "description": "C/C++, Java, HTML, JS, Tensorflow, CI/CD, DB, Deployment",
+      "level": 4
+    },
+    {
+      "description": "CUDA, OpenCl, React, Django, Flask, Nginx",
+      "level": 3
     }
   ]
 }
