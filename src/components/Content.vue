@@ -4,38 +4,38 @@
       <div style="padding: 0 20px;">
         <h1>Education</h1>
         <div>
-          <template-education
+          <education
             v-for="(education, idx) in resume.education"
             :key="idx"
             v-bind="education"
-          ></template-education>
+          ></education>
         </div>
 
         <h1>Work Experience</h1>
         <div>
-          <template-work-experience
+          <work-experience
             v-for="(experience, idx) in resume.workExperience"
             :key="idx"
             v-bind="experience"
-          ></template-work-experience>
+          ></work-experience>
         </div>
 
         <h1>Skills</h1>
         <div>
-          <template-skill
+          <skill
             v-for="(skill, idx) in resume.skills"
             :key="idx"
             v-bind="skill"
-          ></template-skill>
+          ></skill>
         </div>
 
         <h1>Languages</h1>
         <div>
-          <template-skill
+          <skill
             v-for="(language, idx) in resume.languages"
             :key="idx"
             v-bind="language"
-          ></template-skill>
+          ></skill>
         </div>
       </div>
     </section>
@@ -43,17 +43,13 @@
 </template>
 
 <script>
-import {
-  TemplateEducation,
-  TemplateWorkExperience,
-  TemplateSkill
-} from "./templates";
+import { Education, WorkExperience, Skill } from "./templates";
 
 export default {
   components: {
-    TemplateEducation,
-    TemplateWorkExperience,
-    TemplateSkill
+    Education,
+    WorkExperience,
+    Skill
   },
   props: {
     resume: Object
