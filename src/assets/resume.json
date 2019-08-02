@@ -56,5 +56,15 @@
       "description": "CUDA, OpenCl, React, Django, Flask, Nginx",
       "level": 3
     }
+  ],
+  "languages": [
+    {
+      "description": "English",
+      "level": 4
+    },
+    {
+      "description": "Indonesian",
+      "level": 5
+    }
   ]
 }

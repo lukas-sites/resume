@@ -28,6 +28,15 @@
             v-bind="skill"
           ></template-skill>
         </div>
+
+        <h1>Languages</h1>
+        <div>
+          <template-skill
+            v-for="(language, idx) in resume.languages"
+            :key="idx"
+            v-bind="language"
+          ></template-skill>
+        </div>
       </div>
     </section>
   </section>
