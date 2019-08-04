@@ -2,7 +2,7 @@
   <section class="container">
     <section>
       <div class="padding">
-        <h1>Education</h1>
+        <h2>Education</h2>
         <div>
           <education
             v-for="(education, idx) in resume.education"
@@ -15,7 +15,7 @@
 
     <section>
       <div class="padding">
-        <h1>Work Experience</h1>
+        <h2>Work Experience</h2>
         <div>
           <work-experience
             v-for="(experience, idx) in resume.workExperience"
@@ -28,7 +28,7 @@
 
     <section>
       <div class="padding">
-        <h1>Skills</h1>
+        <h2>Skills</h2>
         <div>
           <skill
             v-for="(skill, idx) in resume.skills"
@@ -41,7 +41,7 @@
 
     <section>
       <div class="padding">
-        <h1>Languages</h1>
+        <h2>Languages</h2>
         <div>
           <skill
             v-for="(language, idx) in resume.languages"
@@ -54,7 +54,7 @@
 
     <section>
       <div class="padding">
-        <h1>Relevant Experience</h1>
+        <h2>Relevant Experience</h2>
         <div>
           <relevant-experience
             v-for="(exp, idx) in resume.relevantExperience"
@@ -67,7 +67,7 @@
 
     <section>
       <div class="padding">
-        <h1>Achievements</h1>
+        <h2>Achievements</h2>
         <p v-for="(achievement, idx) in resume.achievements" :key="idx">
           {{ achievement.description }} ({{ achievement.date }})
         </p>
@@ -103,6 +103,7 @@ export default {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
+  padding: 0mm 4mm;
 }
 
 .container > * {
@@ -110,6 +111,6 @@ export default {
 }
 
 .padding {
-  padding: 2mm 8mm;
+  padding: 2mm 4mm;
 }
 </style>

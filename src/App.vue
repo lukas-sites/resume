@@ -18,24 +18,25 @@ export default {
 <style>
 body {
   font-family: sans-serif;
-  font-size: 3.2mm;
   background-color: #323639;
   margin: 0;
+  font-size: 3.2mm;
 }
 
 h1 {
-  margin-block-start: 0.1em;
-  margin-block-end: 0.1em;
+  font-size: 6mm;
 }
 
 h2 {
-  margin-block-start: 0.15em;
-  margin-block-end: 0.15em;
+  font-size: 5mm;
 }
 
-p {
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
+h3 {
+  font-size: 4mm;
+}
+
+h4 {
+  font-size: 3mm;
 }
 
 a {

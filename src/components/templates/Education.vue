@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h2>{{ degree }}</h2>
-    <h3>{{ from }}</h3>
+    <h3>{{ degree }}</h3>
+    <h4>{{ from }}</h4>
     <div style="display: flex; justify-content: space-between;">
       <div>{{ date }}</div>
       <div>{{ gpa }}</div>

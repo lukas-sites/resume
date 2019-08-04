@@ -1,12 +1,12 @@
 <template>
   <section>
-    <h2>{{ position }}</h2>
-    <h3>{{ company }}</h3>
+    <h3>{{ position }}</h3>
+    <h4>{{ company }}</h4>
     <div style="display: flex; justify-content: space-between;">
       <div>{{ date }}</div>
       <div>{{ where }}</div>
     </div>
-    <h4>Achievements</h4>
+    <div>Achievements/Tasks</div>
     <ul>
       <li v-for="(achievement, idx) in achievements" :key="idx">
         {{ achievement }}
