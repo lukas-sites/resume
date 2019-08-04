@@ -19,15 +19,7 @@ jobs:
           command: npm run build
       - run:
           name: deploy it to github
-          command: |
-            # Push changes
-            git config credential.helper 'cache --timeout=120'
-            git config user.email "lherman.cs@gmail.com"
-            git config user.name "lherman-cs"
-            git add .
-            git commit -m "Deployed via CircleCI [ci skip]"
-            # Push quietly to prevent showing the token in log
-            git push -q https://${GITHUB_PERSONAL_TOKEN}@github.com/lukas-sites/resume.git master
+          command: npm run deploy
 
 workflows:
   version: 2
