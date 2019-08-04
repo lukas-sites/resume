@@ -55,6 +55,7 @@ h5 {
 a {
   color: inherit;
   text-decoration: none;
+  font-size: 0.9em;
 }
 
 .flex-spacer {

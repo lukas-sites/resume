@@ -24,6 +24,6 @@ header {
 }
 
 .content__wrapper {
-  padding: 3mm 7mm 1mm;
+  padding: 3mm 8mm;
 }
 </style>
