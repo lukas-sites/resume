@@ -2,7 +2,11 @@
   <div id="app">
     <resume></resume>
     <div class="download-btn" v-no-print>
-      <a href="/pdf/resume.pdf" download="lukas-herman-resume.pdf">
+      <a
+        href="/pdf/resume.pdf"
+        download="lukas-herman-resume.pdf"
+        aria-label="download resume"
+      >
         <font-awesome-icon icon="download" />
       </a>
     </div>
