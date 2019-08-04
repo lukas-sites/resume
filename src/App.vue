@@ -48,8 +48,8 @@ h2,
 h3,
 h4,
 h5 {
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin-block-start: 1mm;
+  margin-block-end: 1mm;
 }
 
 a {
@@ -59,5 +59,15 @@ a {
 
 .flex-spacer {
   flex-grow: 1;
+}
+
+ul {
+  margin-block-start: 1mm;
+  margin-block-end: 1mm;
+  padding-inline-start: 8mm;
+}
+
+li {
+  margin-block-end: 0.75mm;
 }
 </style>
