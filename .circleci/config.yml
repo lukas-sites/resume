@@ -22,7 +22,10 @@ jobs:
             - "fb:52:23:c1:3e:07:77:fa:7e:a6:b9:f9:cf:41:e7:9b"
       - run:
           name: deploy it to github
-          command: npm run deploy
+          command: |
+            git config user.email "lherman.cs@gmail.com"
+            git config user.name "lherman-cs"
+            npm run deploy
 
 workflows:
   version: 2
