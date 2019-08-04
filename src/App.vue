@@ -24,19 +24,32 @@ body {
 }
 
 h1 {
-  font-size: 6mm;
+  font-size: 7.5mm;
 }
 
 h2 {
-  font-size: 5mm;
+  font-size: 5.5mm;
 }
 
 h3 {
-  font-size: 4mm;
+  font-size: 4.5mm;
 }
 
 h4 {
-  font-size: 3mm;
+  font-size: 3.5mm;
+}
+
+h5 {
+  font-size: 3.35mm;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 a {
