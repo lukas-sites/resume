@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "npm run build:pdf && vue-cli-service build",
     "build:pdf": "node build-pdf.js",
     "lint": "vue-cli-service lint"
   },
