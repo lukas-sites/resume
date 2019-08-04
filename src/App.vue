@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     <resume></resume>
+    <div class="download-btn" v-no-print>
+      <a href="/pdf/resume.pdf" download="lukas-herman-resume.pdf">
+        <font-awesome-icon icon="download" />
+      </a>
+    </div>
   </div>
 </template>
 
@@ -70,5 +75,25 @@ ul {
 
 li {
   margin-block-end: 0.75mm;
+}
+
+.download-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+
+  background-color: #047be3;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
