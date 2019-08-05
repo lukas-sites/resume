@@ -77,10 +77,6 @@ ul {
   padding-inline-start: 8mm;
 }
 
-li {
-  margin-block-end: 0.75mm;
-}
-
 .download-btn {
   position: fixed;
   bottom: 24px;
@@ -99,5 +95,9 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.me-sm {
+  margin-block-end: 0.75mm;
 }
 </style>

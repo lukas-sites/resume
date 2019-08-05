@@ -8,7 +8,7 @@
     </div>
     <div>Achievements/Tasks</div>
     <ul>
-      <li v-for="(achievement, idx) in achievements" :key="idx">
+      <li v-for="(achievement, idx) in achievements" :key="idx" class="me-sm">
         {{ achievement }}
       </li>
     </ul>

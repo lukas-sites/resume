@@ -34,6 +34,7 @@
             v-for="(skill, idx) in resume.skills"
             :key="idx"
             v-bind="skill"
+            class="me-sm"
           ></skill>
         </div>
       </div>
@@ -47,6 +48,7 @@
             v-for="(language, idx) in resume.languages"
             :key="idx"
             v-bind="language"
+            class="me-sm"
           ></skill>
         </div>
       </div>

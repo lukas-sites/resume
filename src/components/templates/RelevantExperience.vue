@@ -5,7 +5,7 @@
       <div>{{ date }}</div>
     </div>
     <ul>
-      <li v-for="(description, idx) in descriptions" :key="idx">
+      <li v-for="(description, idx) in descriptions" :key="idx" class="me-sm">
         {{ description }}
       </li>
     </ul>
