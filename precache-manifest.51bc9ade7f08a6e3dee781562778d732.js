@@ -8,7 +8,7 @@ self.__precacheManifest = [
     "url": "/robots.txt"
   },
   {
-    "revision": "681e8285e2cf431ea7dd5f20c9cc158b",
+    "revision": "720a75af049e2b1f5fb8680cda58a96c",
     "url": "/pdf/resume.pdf"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/js/app.a08b1572.js"
   },
   {
-    "revision": "70b16c2fab183ea7f8fc638cedc93723",
+    "revision": "d4a6b8072858049d4df7289692b14f7d",
     "url": "/index.html"
   },
   {
